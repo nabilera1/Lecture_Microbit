@@ -5,5 +5,8 @@ def on_forever():
     basic.show_icon(IconNames.SMALL_HEART)
     basic.clear_screen()
     basic.pause(500)
+    basic.show_number(1)
+    basic.show_number(2)
+    basic.pause(500)
 
 basic.forever(on_forever)
